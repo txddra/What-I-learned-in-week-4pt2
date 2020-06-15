@@ -7,6 +7,37 @@ During this week, we went over a few things to include:
  - __Strings__
  - __Scope__
  - __Booleans__
+
+---
+
+## Scope
+---
+"_what happens in functions, stays in functions_ "
+
+In JavaScript there are *two* types of scope:
+
+- __Local scope__:
+   
+  - _Variables declared within a JavaScript function, become LOCAL to the function_.
+
+  - Since local variables are only recognized inside their functions, variables with the same name can be used in different functions.
+
+
+
+- __Global scope__
+  
+  - A variable declared outside a function, becomes GLOBAL.
+  - If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
+
+
+
+*Stay away from global variables whenever possible 
+<!-- 
+intermediate variable - storing it 
+Const last = str.length -1
+to be used 
+Return str[last] -->
+
 ---
 ## Variables
 ---
@@ -31,3 +62,11 @@ global variables are variables that are defined *outside* of functions. they can
 **Parameters**
 
 Function parameters are the names listed in the function.
+` function countEm(num){
+return num
+}`
+in this function num would be the *parameter*
+
+---
+## Booleans 
+---
