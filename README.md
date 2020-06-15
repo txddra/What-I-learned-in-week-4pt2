@@ -70,3 +70,14 @@ in this function num would be the *parameter*
 ---
 ## Booleans 
 ---
+JavaScript has a Boolean data type. It can only take the values *true* or *false*.
+
+---
+ ## Strings
+ ---
+ JavaScript Strings
+A JavaScript string stores a series of characters like "John Doe".
+
+A string can be any text inside double or single quotes.
+
+   
